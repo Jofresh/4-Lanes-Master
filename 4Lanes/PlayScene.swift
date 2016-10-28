@@ -184,7 +184,7 @@ class PlayScene: SKScene, SKPhysicsContactDelegate {
         let videoParseUrl : NSURL = NSURL(string: videoParseUrlString)!
         let videoData : NSData = NSData(contentsOfURL: videoParseUrl)!
         
-        let videoLocalUrlString : String = NSTemporaryDirectory() + "video.mov"
+        let videoLocalUrlString : String = NSTemporaryDirectory() + "video.mp4"
         let videoLocalUrl : NSURL = NSURL(fileURLWithPath: videoLocalUrlString)
         self.localVideoUrlString = videoLocalUrlString
         self.localVideoUrl = videoLocalUrl
